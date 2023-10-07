@@ -1,0 +1,21 @@
+{
+	"applications": [
+		{
+			"app_key": "AtPulseSteamVrCompanion",
+			"launch_type": "binary",
+			"binary_path_windows": "AtPulsoSteamVrCompanion.exe",
+			"is_dashboard_overlay": true,
+
+			"strings": {
+				"en_us": {
+					"name": "AtPulseSteamVrCompanion",
+					"description": "Shows hartrate from AtPulso"
+				},
+				"ru_ru": {
+					"name": "AtPulseSteamVrCompanion",
+					"description": "Отображает пульс из AtPulso"
+				}
+			}
+		}
+	]
+}
