@@ -9,13 +9,14 @@ using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.Net;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using Valve.VR;
 
 namespace AtPulsoSteamVrCompanion
 {
     public partial class Form1 : Form
     {
-        readonly static string AppVersion = "1.0";
+        readonly static string AppVersion = "1.0.1";
         readonly static string AppName = "AtPulseSteamVrCompanion";
         readonly static string AppNameSnake = "at_pulse_vr_companion";
         readonly string PathToExe = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
@@ -274,6 +275,8 @@ namespace AtPulsoSteamVrCompanion
                 FakeGameWindow.Close();
                 FakeGameWindow.Dispose();
             }
+            NiMain.Visible = false;
+            NiMain.Dispose();
         }
 
 
@@ -580,16 +583,94 @@ namespace AtPulsoSteamVrCompanion
             return true;
         }
 
+        private void CheckingForExitSteamVr()
+        {
+            while (VrStarted)
+            {
+                var vrEvents = new List<VREvent_t>();
+                var vrEvent = new VREvent_t();
+                uint eventSize = (uint)Marshal.SizeOf(vrEvent);
+                try
+                {
+                    while (OpenVR.System.PollNextEvent(ref vrEvent, eventSize))
+                    {
+                        vrEvents.Add(vrEvent);
+                    }
+                }
+                catch
+                {
+                }
+
+                foreach (var e in vrEvents)
+                {
+                    if ((EVREventType)e.eventType == EVREventType.VREvent_Quit)
+                    {
+                        OpenVR.System.AcknowledgeQuit_Exiting();
+                        VrStarted = false;
+                        this.Invoke(new Action(() =>
+                        {
+                            this.Close();
+                        }));
+                    }
+                }
+                Thread.Sleep(100);
+            }
+        }
+
         void TryToInitVr()
         {
             VrStarted = InitVr();
             if (VrStarted)
             {
+
+                Task t = new(() =>
+                {
+                    CheckingForExitSteamVr();
+                });
+                t.Start();
                 if (!GlStarted)
                     InitGL();
                 GlStarted = true;
             }
             CbStartWithSteamVR.Enabled = VrStarted;
         }
+
+        private void BuAdjust_Click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            string tag = (string)button.Tag;
+            string[] p = tag.Split(',');
+
+            NumericUpDown? target = null;
+            decimal changeValue = 0;
+
+            switch (p[0])
+            {
+                case "S": target = NudSize; changeValue = (decimal)0.1; break;
+                case "O": target = NudOpacity; changeValue = (decimal)0.1; break;
+                case "X": target = NudX; changeValue = (decimal)0.1; break;
+                case "Y": target = NudY; changeValue = (decimal)0.1; break;
+                case "Z": target = NudZ; changeValue = (decimal)0.1; break;
+                case "P": target = NudPitch; changeValue = (decimal)10; break;
+                case "Yaw": target = NudYaw; changeValue = (decimal)10; break;
+                case "R": target = NudRoll; changeValue = (decimal)10; break;
+            }
+            if (target == null)
+                return;
+
+            switch (p[1])
+            {
+                case "--": changeValue *= (decimal)-0.1; break;
+                case "-": changeValue *= (decimal)-1; break;
+                case "+": changeValue *= (decimal)1; break;
+                case "++": changeValue *= (decimal)0.1; break;
+            }
+
+            if (changeValue < 0 && target.Value + changeValue >= target.Minimum)
+                target.Value += changeValue;
+            if (changeValue > 0 && target.Value + changeValue <= target.Maximum)
+                target.Value += changeValue;
+        }
+
     }
 }

@@ -119,109 +119,169 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 15</value>
+    <value>79, 30</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Адрес :</value>
+    <value>Адрес:</value>
+  </data>
+  <data name="TbApAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>774, 36</value>
   </data>
   <data name="CbStartWithSteamVR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 19</value>
+    <value>329, 34</value>
   </data>
   <data name="CbStartWithSteamVR.Text" xml:space="preserve">
     <value>Запускать вместе со SteamVR</value>
   </data>
   <data name="CbPreset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 22</value>
+    <value>139, 35</value>
   </data>
   <data name="CbPreset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 23</value>
+    <value>835, 38</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 15</value>
+    <value>85, 30</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Пресет:</value>
+    <value>Пресет</value>
   </data>
   <data name="CbMinimize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 19</value>
+    <value>292, 34</value>
   </data>
   <data name="CbMinimize.Text" xml:space="preserve">
     <value>Сворачивать при запуске</value>
   </data>
   <data name="CbToTray.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 51</value>
+    <value>304, 77</value>
+  </data>
+  <data name="CbToTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 34</value>
   </data>
   <data name="CbToTray.Text" xml:space="preserve">
     <value>в трей</value>
   </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>980, 165</value>
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Основные настройки</value>
+    <value>Настройки приложения</value>
   </data>
-  <data name="BuPresetSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 262</value>
-  </data>
-  <data name="CbDevice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>85, 80</value>
-  </data>
-  <data name="CbDevice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 23</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 15</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Устройство:</value>
-  </data>
-  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 82</value>
-  </data>
-  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 15</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Крен:</value>
-  </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 53</value>
-  </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 15</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>Рыскание:</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 24</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 15</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Тангаж:</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 146</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 111</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 15</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Непрозрачность:</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 15</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Размер:</value>
+  <data name="BuHr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>892, 115</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>333, 291</value>
+    <value>980, 458</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Настройки отображения</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 135</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 135</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 135</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>858, 135</value>
+  </data>
+  <data name="BuPresetSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>968, 46</value>
+  </data>
+  <data name="BuPresetSave.Text" xml:space="preserve">
+    <value>Сохранить пресет</value>
+  </data>
+  <data name="CbDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 80</value>
+  </data>
+  <data name="CbDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 38</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 30</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Устройство</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>968, 209</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Позиция</value>
+  </data>
+  <data name="button29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 149</value>
+  </data>
+  <data name="button30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 149</value>
+  </data>
+  <data name="button31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>902, 149</value>
+  </data>
+  <data name="button32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>846, 149</value>
+  </data>
+  <data name="button25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 91</value>
+  </data>
+  <data name="button26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 91</value>
+  </data>
+  <data name="button27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>902, 91</value>
+  </data>
+  <data name="button28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>846, 91</value>
+  </data>
+  <data name="button21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 35</value>
+  </data>
+  <data name="button22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 35</value>
+  </data>
+  <data name="button23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>902, 35</value>
+  </data>
+  <data name="button24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>846, 35</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 159</value>
+  </data>
+  <data name="NudRoll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 157</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 101</value>
+  </data>
+  <data name="NudYaw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 99</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 45</value>
+  </data>
+  <data name="NudPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 43</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 145</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 30</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Прозрачность</value>
+  </data>
+  <data name="NudOpacity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>785, 143</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 30</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Размер</value>
   </data>
   <data name="NiMain.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -300,7 +360,7 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>357, 429</value>
+    <value>1004, 653</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -318,44 +378,44 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAADYFgAA/JUAAP/0AAD//wAA//8AAP/0AAD6mQAA
         zBkAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMUAAAD/AAAA0yMAAPeoAAD/+wAA//8AAP//AAD//wAA
-        //8AAP/8AAD2rQAA1iYAAO8AAADbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAGgAAABsAAGw6AADPuAAA4/0AAOb/AAD8/wAA
-        //8AAP//AADx/wAA4/8AAOP+AADQvAAAqjQAAAwOAAAAHAAAABwAAAAcAAAACwAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsAAADVAAAA5AAACOwAABv+AAAb/wAA
-        Nf8AAOb/AAD//wAA//8AAIn/AAAY/wAAHP8AABn/AAB0ygAAXKsAAADlAAAA4wAAAOAAAABaAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABXQAAAPkAAAD/AAAA/wAA
-        AP8AAAD/AAAY/wAA1/8AAP//AAD//wAAe/8AAAD/AAAA/wAAAP8AAIT+AACD/QAAAP8AAAD/AAAA+wAA
-        AGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAA/wgAACOWAAAA/wAA
-        AP8AAAD/AAAA/wAAAP8AABD/AAC//wAA//8AAP//AAB7/wAAAP8AAAD/AAAA/wAAhP8AAIT/AAAA/wAA
-        AP8AAAD7AAAAZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3QAAANYKAADwdQAA
-        Z+4AAAD/AAAA/wAAAv8AAAH/AAAA/wAAA/8AAJj/AAD//wAA//8AAHv/AAAA/wAAAP8AAAD/AACE/wAA
-        hP8AAAD/AAAA/wAAAfwAAAZmAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANQAAAC5CQAA
-        8XcAAPXvAABb/wAAAP8AAAD/AAAf/wAACv8AAAD/AAAA/wAAfP8AAP//AAD//wAAe/8AAAD/AAAA/wAA
-        AP8AAIT/AACE/wAAAP8AAAD/AAAK/wAAaJcAAP8KAADjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+AAAA
-        fAMAAOdpAAD+7QAA6f8AACz/AAAA/wAAAP8AAEL/AAAW/wAAAP8AAAD/AABs/wAA/v8AAP//AAB7/wAA
-        AP8AAAD/AAAA/wAAhP8AAIT/AAAA/wAAAP8AAA3/AACs7wAA8m8AAJcEAADGAAAAAAAAAAAAAAAAAAAA
-        hQAAAP8AAADuQQAA/OMAAP//AADb/wAAGf8AAAD/AAAA/wAAYf8AACL/AAAA/wAAAP8AAFP/AAD1/wAA
-        //8AAHv/AAAA/wAAAP8AAAD/AABk/wAAWP8AAAD/AAAA/wAAK/8AANv/AAD+5QAA7EcAAP8AAACtAAAA
-        AAAAAAAAAADiAAAA0hEAAPiyAAD//wAA//8AAMP/AAAR/wAAAP8AAAD/AAB0/wAARf8AAAD/AAAA/wAA
-        KP8AAOf/AAD//wAAe/8AAAD/AAAA/wAAAP8AAAj/AAAE/wAAAv8AADf/AAC5/wAA//8AAP//AAD5uAAA
-        3BQAAOgAAAAAAAAAAAAAAP8AAADtUQAA/e8AAP//AAD//wAAlf8AAAL/AAAA/wAACf8AAJ//AABa/wAA
-        AP8AAAD/AAAa/wAA3/8AAP//AAB7/wAAAP8AAAD/AAAA/wAAC/8AAAj/AAAA/wAAEv8AAHD/AADz/wAA
-        //8AAP72AADwWQAA/wAAAE0AAADIAAAAoQcAAPOcAAD//wAA//8AAP//AAB5/wAAAP8AAAD/AAAR/wAA
-        v/8AAGz/AAAA/wAAAP8AABP/AADJ/wAA//8AAHv/AAAA/wAAAP8AAAD/AABv/wAAZf8AAAD/AAAA/wAA
-        E/8AAMf/AAD//wAA//8AAPWjAADBCQAA1wAAAPkAAADzFQAA/swAAP//AAD//wAA+v8AAGP/AAAA/wAA
-        AP8AABf/AADW/wAAef8AAAD/AAAA/wAACf8AAKr/AAD//wAAe/8AAAD/AAAA/wAAAP8AAIT/AACE/wAA
-        AP8AAAD/AAAM/wAAsv8AAP//AAD//wAA/tAAAO0XAAD3AAAA4QAAAMkoAAD84gAA//8AAP//AADs/wAA
-        Nv8AAAD/AAAA/wAAG/8AAOX/AACA/wAAAP8AAAD/AAAA/wAAg/8AAP//AAB7/wAAAP8AAAD/AAAA/wAA
-        hP8AAIP/AAAA/wAAAP8AAAz/AAC0/wAA//8AAP//AAD76QAAyC8AAN8AAADdAAAAyDoAAPvtAAD//wAA
-        //8AAN//AAAa/wAAAP8AAAD/AAAg/wAA6f8AAI7/AAAA/wAAAP8AAAD/AAB1/wAA//8AAHv/AAAA/wAA
-        AP8AAAD/AAA//wAAOf8AAAD/AAAA/wAAF/8AANH/AAD//wAA//8AAPvwAADSQgAA4QAAAOAAAADPQAAA
-        ++8AAP//AAD//wAAyf8AABP/AAAA/wAAAP8AAET/AAD0/wAAsP8AAAv/AAAA/wAAAP8AAF//AAD8/wAA
-        e/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AABX/wAA8/8AAP//AAD//wAA+/IAANtIAADnAAAA
-        3QAAAMg2AAD76wAA//8AAP//AACw/wAAI/8AABv/AAAZ/wAAb/8AAPz/AADL/wAALP8AABv/AAAa/wAA
-        Tv8AAPH/AACK/wAAGP8AABz/AAAc/wAAG/8AAC3/AABO/wAAef8AAOD/AAD//wAA//8AAP//AAD77QAA
-        zz0AAOEAAADuAAAA3BsAAP3UAAD//wAA//8AAPL/AADj/wAA4/8AAOP/AADv/wAA//8AAPr/AADl/wAA
-        4/8AAOP/AADl/wAA/P8AAPH/AADi/wAA4/8AAOP/AADj/wAA6f8AAPP/AAD9/wAA//8AAP//AAD//wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIsAAAD/AAAAxyMAAPWoAAD/+wAA//8AAP//AAD//wAA
+        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
+        Df8AAAD/AAB1/wAA//8AAP//AAD//wAA//8AAP//AAD76QAAyC8AAN8AAADdAAAAyDoAAPvtAAD//wAA
+        //8AAP//AAD//wAA9P8AAFD/AAAA/wAAEP8AALv/AABo/wAAAP8AAAP/AACc/wAAtf8AAAv/AAAA/wAA
+        bf8AAMv/AAAV/wAAAP8AAGj/AAD8/wAA//8AAP//AAD//wAA//8AAPvwAADSQgAA4QAAAOAAAADPQAAA
+        ++8AAP//AAD//wAA//8AAP//AADl/wAAIf8AAAD/AAAW/wAA0v8AAHT/AAAA/wAAAP8AAH//AAC0/wAA
+        C/8AAAD/AABH/wAAcf8AAAf/AAAA/wAAdP8AAP//AAD//wAA//8AAP//AAD//wAA+/IAANtIAADnAAAA
+        3QAAAMg2AAD76wAA//8AAP//AAD//wAA//8AANT/AAAX/wAAAP8AABr/AADi/wAAgP8AAAD/AAAA/wAA
+        bf8AAK7/AAAL/wAAAP8AAAH/AAAC/wAAAP8AAB7/AAC8/wAA//8AAP//AAD//wAA//8AAP//AAD77QAA
+        zz0AAOEAAADuAAAA3BsAAP3UAAD//wAA//8AAP//AAD//wAA4P8AAIT/AAB5/wAAif8AAPP/AAC+/wAA
+        eP8AAHn/AACs/wAA1P8AAIL/AAB7/wAAev8AAHr/AACE/wAAyf8AAP3/AAD//wAA//8AAP//AAD//wAA
         //8AAP3WAADYHgAA6wAAANIAAACyBgAA9ZkAAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
         //8AAP//AAD//wAA//8AAP72AAD99gAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
         //8AAP//AAD//wAA96AAAMoIAADdAAAAAAAAAP8AAADvOwAA/OIAAP//AAD//wAA//8AAP//AAD//wAA
@@ -373,8 +433,8 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAA/////////////n////w////4H///8A///+AH//4AAB/+AAAf/gAAH/wA
-        AB/4AAAf8AAAD+AAAAfgAAAHwAAAA8AAAAOAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAcAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/////////////n////w////4H///8A///+AH///AA///gAD//gAAf/wA
+        AD/4AAAf8AAAD+AAAAfgAAAHwAAAA8AAAAOAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAcAA
         AAPAAAAD4AGAB/ADwA/8D/A///////////8=
 </value>
   </data>
